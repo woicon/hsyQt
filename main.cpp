@@ -1,4 +1,7 @@
 #include "mainwindow.h"
+#include "logins.h"
+#include "setting.h"
+#include "priceview.h"
 #include <QApplication>
 #include <QFile>
 
@@ -12,6 +15,7 @@ public:
         qss.close();
     }
 };
+
 int main(int argc, char *argv[])
 {
 #if (QT_VERSION >= QT_VERSION_CHECK(5, 6, 0))

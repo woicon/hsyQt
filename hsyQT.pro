@@ -25,15 +25,28 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    logins.cpp \
+    priceview.cpp \
+    hsetting.cpp \
+    payok.cpp \
+    login.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    logins.h \
+    priceview.h \
+    hsetting.h \
+    payok.h \
+    login.h
 
 FORMS += \
         mainwindow.ui \
-    desktopview.ui \
+    logins.ui \
+    priceview.ui \
     setting.ui \
+    setting.ui \
+    payok.ui \
     login.ui
 
 RESOURCES += \

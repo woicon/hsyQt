@@ -26,3 +26,13 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
+void MainWindow::on_centralWidget_windowTitleChanged(const QString &title)
+{
+
+}
+
+void MainWindow::on_widget_4_customContextMenuRequested(const QPoint &pos)
+{
+
+}

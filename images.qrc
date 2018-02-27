@@ -51,5 +51,9 @@
         <file>images/scrollico/down.png</file>
         <file>images/scrollico/Thumbs.db</file>
         <file>images/scrollico/up.png</file>
+        <file>images/alretico/error.png</file>
+        <file>images/alretico/errors.png</file>
+        <file>images/alretico/money-error.png</file>
+        <file>images/alretico/ok.png</file>
     </qresource>
 </RCC>
