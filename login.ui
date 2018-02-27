@@ -6,26 +6,175 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>261</width>
-    <height>262</height>
+    <width>340</width>
+    <height>390</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>261</width>
-     <height>21</height>
-    </rect>
-   </property>
+  <property name="styleSheet">
+   <string notr="true">background:#ffffff</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="loginComboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:1px solid rgb(204, 204, 204);
+background: #FFFFFF;
+border-radius: 2px;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>收银台001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>收银台002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>收银台003</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(84, 207, 170);
+color:rgb(255, 255, 255);
+border-radius:2px;
+border:none;
+font-family: MicrosoftSansSerif;
+font-size: 22px;
+letter-spacing: 2;</string>
+    </property>
+    <property name="text">
+     <string>登陆</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>10</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(:/images/logo-login.png) no-repeat center;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:11px;
+color:rgb(204, 204, 204);
+font-family: Microsoft YaHei;</string>
+    </property>
+    <property name="text">
+     <string>V0.1.1©huihosuyin.cn</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>73</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>自动登陆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="images.qrc">
+      <normaloff>:/images/ico/close-hover.png</normaloff>:/images/ico/close-hover.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>350</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font-family: Microsoft YaHei;
+font-size: 12px;
+color: #rgb(153, 153, 153);</string>
+    </property>
+    <property name="text">
+     <string>代理服务器设置</string>
+    </property>
+    <property name="icon">
+     <iconset resource="images.qrc">
+      <normaloff>:/images/ico/arr.png</normaloff>:/images/ico/arr.png</iconset>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
  <connections/>
 </ui>

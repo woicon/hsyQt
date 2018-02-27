@@ -48,5 +48,8 @@
         <file>images/window-ico.png</file>
         <file>images/floatwindow-normal.png</file>
         <file>images/floatwindow-error.png</file>
+        <file>images/scrollico/down.png</file>
+        <file>images/scrollico/Thumbs.db</file>
+        <file>images/scrollico/up.png</file>
     </qresource>
 </RCC>

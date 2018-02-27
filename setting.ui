@@ -836,7 +836,132 @@
      </layout>
     </widget>
    </widget>
-   <widget class="QWidget" name="page_4"/>
+   <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="verticalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>541</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_5">
+      <item>
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="title">
+         <string>快捷键设置</string>
+        </property>
+        <widget class="QWidget" name="formLayoutWidget_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>20</y>
+           <width>331</width>
+           <height>341</height>
+          </rect>
+         </property>
+         <layout class="QFormLayout" name="formLayout_9">
+          <property name="verticalSpacing">
+           <number>16</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QLabel" name="Label_7">
+            <property name="text">
+             <string>显示快捷键说明：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="ComboBox_6"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="Label_8">
+            <property name="text">
+             <string>打开关闭收银台：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="ComboBox_7"/>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="Label_9">
+            <property name="text">
+             <string>退款：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="ComboBox_8"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="Label_10">
+            <property name="text">
+             <string>现金收款：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="ComboBox_9"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="Label_11">
+            <property name="text">
+             <string>刷卡收款：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="ComboBox_10"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="Label_12">
+            <property name="text">
+             <string>会员收款：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QComboBox" name="ComboBox_11"/>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="Label_13">
+            <property name="text">
+             <string>交易查询：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QComboBox" name="ComboBox_12"/>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="Label_14">
+            <property name="text">
+             <string>交接班(注销)：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QComboBox" name="ComboBox_13"/>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="Label_15">
+            <property name="text">
+             <string>关闭小精灵：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QComboBox" name="ComboBox_14"/>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
   </widget>
   <widget class="QWidget" name="widget" native="true">
    <property name="geometry">
@@ -1087,130 +1212,6 @@
     <iconset resource="images.qrc">
      <normaloff>:/images/ico/close.png</normaloff>:/images/ico/close.png</iconset>
    </property>
-  </widget>
-  <widget class="QWidget" name="verticalLayoutWidget_5">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>30</y>
-     <width>541</width>
-     <height>361</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_5">
-    <item>
-     <widget class="QGroupBox" name="groupBox_12">
-      <property name="title">
-       <string>快捷键设置</string>
-      </property>
-      <widget class="QWidget" name="formLayoutWidget_5">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>20</y>
-         <width>331</width>
-         <height>341</height>
-        </rect>
-       </property>
-       <layout class="QFormLayout" name="formLayout_9">
-        <property name="verticalSpacing">
-         <number>16</number>
-        </property>
-        <item row="0" column="0">
-         <widget class="QLabel" name="Label_7">
-          <property name="text">
-           <string>显示快捷键说明：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="0" column="1">
-         <widget class="QComboBox" name="ComboBox_6"/>
-        </item>
-        <item row="1" column="0">
-         <widget class="QLabel" name="Label_8">
-          <property name="text">
-           <string>打开关闭收银台：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="1" column="1">
-         <widget class="QComboBox" name="ComboBox_7"/>
-        </item>
-        <item row="2" column="0">
-         <widget class="QLabel" name="Label_9">
-          <property name="text">
-           <string>退款：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="2" column="1">
-         <widget class="QComboBox" name="ComboBox_8"/>
-        </item>
-        <item row="3" column="0">
-         <widget class="QLabel" name="Label_10">
-          <property name="text">
-           <string>现金收款：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="3" column="1">
-         <widget class="QComboBox" name="ComboBox_9"/>
-        </item>
-        <item row="4" column="0">
-         <widget class="QLabel" name="Label_11">
-          <property name="text">
-           <string>刷卡收款：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="4" column="1">
-         <widget class="QComboBox" name="ComboBox_10"/>
-        </item>
-        <item row="5" column="0">
-         <widget class="QLabel" name="Label_12">
-          <property name="text">
-           <string>会员收款：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="5" column="1">
-         <widget class="QComboBox" name="ComboBox_11"/>
-        </item>
-        <item row="6" column="0">
-         <widget class="QLabel" name="Label_13">
-          <property name="text">
-           <string>交易查询：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="6" column="1">
-         <widget class="QComboBox" name="ComboBox_12"/>
-        </item>
-        <item row="7" column="0">
-         <widget class="QLabel" name="Label_14">
-          <property name="text">
-           <string>交接班(注销)：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="7" column="1">
-         <widget class="QComboBox" name="ComboBox_13"/>
-        </item>
-        <item row="8" column="0">
-         <widget class="QLabel" name="Label_15">
-          <property name="text">
-           <string>关闭小精灵：</string>
-          </property>
-         </widget>
-        </item>
-        <item row="8" column="1">
-         <widget class="QComboBox" name="ComboBox_14"/>
-        </item>
-       </layout>
-      </widget>
-     </widget>
-    </item>
-   </layout>
   </widget>
  </widget>
  <resources>

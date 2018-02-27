@@ -148,17 +148,6 @@ public:
     QLabel *Label_4;
     QComboBox *ComboBox_4;
     QWidget *page_4;
-    QWidget *widget;
-    QWidget *widget_2;
-    QWidget *verticalLayoutWidget;
-    QVBoxLayout *verticalLayout;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_5;
-    QPushButton *pushButton_4;
-    QPushButton *pushButton_6;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton;
-    QPushButton *closeWindow;
     QWidget *verticalLayoutWidget_5;
     QVBoxLayout *verticalLayout_5;
     QGroupBox *groupBox_12;
@@ -182,6 +171,17 @@ public:
     QComboBox *ComboBox_13;
     QLabel *Label_15;
     QComboBox *ComboBox_14;
+    QWidget *widget;
+    QWidget *widget_2;
+    QWidget *verticalLayoutWidget;
+    QVBoxLayout *verticalLayout;
+    QPushButton *pushButton_2;
+    QPushButton *pushButton_5;
+    QPushButton *pushButton_4;
+    QPushButton *pushButton_6;
+    QPushButton *pushButton_3;
+    QPushButton *pushButton;
+    QPushButton *closeWindow;
 
     void setupUi(QDialog *Dialog)
     {
@@ -720,6 +720,114 @@ public:
         stackedWidget->addWidget(page);
         page_4 = new QWidget();
         page_4->setObjectName(QStringLiteral("page_4"));
+        verticalLayoutWidget_5 = new QWidget(page_4);
+        verticalLayoutWidget_5->setObjectName(QStringLiteral("verticalLayoutWidget_5"));
+        verticalLayoutWidget_5->setGeometry(QRect(0, 0, 541, 361));
+        verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_5);
+        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalLayout_5->setContentsMargins(0, 0, 0, 0);
+        groupBox_12 = new QGroupBox(verticalLayoutWidget_5);
+        groupBox_12->setObjectName(QStringLiteral("groupBox_12"));
+        formLayoutWidget_5 = new QWidget(groupBox_12);
+        formLayoutWidget_5->setObjectName(QStringLiteral("formLayoutWidget_5"));
+        formLayoutWidget_5->setGeometry(QRect(0, 20, 331, 341));
+        formLayout_9 = new QFormLayout(formLayoutWidget_5);
+        formLayout_9->setObjectName(QStringLiteral("formLayout_9"));
+        formLayout_9->setVerticalSpacing(16);
+        formLayout_9->setContentsMargins(0, 0, 0, 0);
+        Label_7 = new QLabel(formLayoutWidget_5);
+        Label_7->setObjectName(QStringLiteral("Label_7"));
+
+        formLayout_9->setWidget(0, QFormLayout::LabelRole, Label_7);
+
+        ComboBox_6 = new QComboBox(formLayoutWidget_5);
+        ComboBox_6->setObjectName(QStringLiteral("ComboBox_6"));
+
+        formLayout_9->setWidget(0, QFormLayout::FieldRole, ComboBox_6);
+
+        Label_8 = new QLabel(formLayoutWidget_5);
+        Label_8->setObjectName(QStringLiteral("Label_8"));
+
+        formLayout_9->setWidget(1, QFormLayout::LabelRole, Label_8);
+
+        ComboBox_7 = new QComboBox(formLayoutWidget_5);
+        ComboBox_7->setObjectName(QStringLiteral("ComboBox_7"));
+
+        formLayout_9->setWidget(1, QFormLayout::FieldRole, ComboBox_7);
+
+        Label_9 = new QLabel(formLayoutWidget_5);
+        Label_9->setObjectName(QStringLiteral("Label_9"));
+
+        formLayout_9->setWidget(2, QFormLayout::LabelRole, Label_9);
+
+        ComboBox_8 = new QComboBox(formLayoutWidget_5);
+        ComboBox_8->setObjectName(QStringLiteral("ComboBox_8"));
+
+        formLayout_9->setWidget(2, QFormLayout::FieldRole, ComboBox_8);
+
+        Label_10 = new QLabel(formLayoutWidget_5);
+        Label_10->setObjectName(QStringLiteral("Label_10"));
+
+        formLayout_9->setWidget(3, QFormLayout::LabelRole, Label_10);
+
+        ComboBox_9 = new QComboBox(formLayoutWidget_5);
+        ComboBox_9->setObjectName(QStringLiteral("ComboBox_9"));
+
+        formLayout_9->setWidget(3, QFormLayout::FieldRole, ComboBox_9);
+
+        Label_11 = new QLabel(formLayoutWidget_5);
+        Label_11->setObjectName(QStringLiteral("Label_11"));
+
+        formLayout_9->setWidget(4, QFormLayout::LabelRole, Label_11);
+
+        ComboBox_10 = new QComboBox(formLayoutWidget_5);
+        ComboBox_10->setObjectName(QStringLiteral("ComboBox_10"));
+
+        formLayout_9->setWidget(4, QFormLayout::FieldRole, ComboBox_10);
+
+        Label_12 = new QLabel(formLayoutWidget_5);
+        Label_12->setObjectName(QStringLiteral("Label_12"));
+
+        formLayout_9->setWidget(5, QFormLayout::LabelRole, Label_12);
+
+        ComboBox_11 = new QComboBox(formLayoutWidget_5);
+        ComboBox_11->setObjectName(QStringLiteral("ComboBox_11"));
+
+        formLayout_9->setWidget(5, QFormLayout::FieldRole, ComboBox_11);
+
+        Label_13 = new QLabel(formLayoutWidget_5);
+        Label_13->setObjectName(QStringLiteral("Label_13"));
+
+        formLayout_9->setWidget(6, QFormLayout::LabelRole, Label_13);
+
+        ComboBox_12 = new QComboBox(formLayoutWidget_5);
+        ComboBox_12->setObjectName(QStringLiteral("ComboBox_12"));
+
+        formLayout_9->setWidget(6, QFormLayout::FieldRole, ComboBox_12);
+
+        Label_14 = new QLabel(formLayoutWidget_5);
+        Label_14->setObjectName(QStringLiteral("Label_14"));
+
+        formLayout_9->setWidget(7, QFormLayout::LabelRole, Label_14);
+
+        ComboBox_13 = new QComboBox(formLayoutWidget_5);
+        ComboBox_13->setObjectName(QStringLiteral("ComboBox_13"));
+
+        formLayout_9->setWidget(7, QFormLayout::FieldRole, ComboBox_13);
+
+        Label_15 = new QLabel(formLayoutWidget_5);
+        Label_15->setObjectName(QStringLiteral("Label_15"));
+
+        formLayout_9->setWidget(8, QFormLayout::LabelRole, Label_15);
+
+        ComboBox_14 = new QComboBox(formLayoutWidget_5);
+        ComboBox_14->setObjectName(QStringLiteral("ComboBox_14"));
+
+        formLayout_9->setWidget(8, QFormLayout::FieldRole, ComboBox_14);
+
+
+        verticalLayout_5->addWidget(groupBox_12);
+
         stackedWidget->addWidget(page_4);
         widget = new QWidget(Dialog);
         widget->setObjectName(QStringLiteral("widget"));
@@ -835,114 +943,6 @@ public:
         QIcon icon6;
         icon6.addFile(QStringLiteral(":/images/ico/close.png"), QSize(), QIcon::Normal, QIcon::Off);
         closeWindow->setIcon(icon6);
-        verticalLayoutWidget_5 = new QWidget(Dialog);
-        verticalLayoutWidget_5->setObjectName(QStringLiteral("verticalLayoutWidget_5"));
-        verticalLayoutWidget_5->setGeometry(QRect(150, 30, 541, 361));
-        verticalLayout_5 = new QVBoxLayout(verticalLayoutWidget_5);
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
-        verticalLayout_5->setContentsMargins(0, 0, 0, 0);
-        groupBox_12 = new QGroupBox(verticalLayoutWidget_5);
-        groupBox_12->setObjectName(QStringLiteral("groupBox_12"));
-        formLayoutWidget_5 = new QWidget(groupBox_12);
-        formLayoutWidget_5->setObjectName(QStringLiteral("formLayoutWidget_5"));
-        formLayoutWidget_5->setGeometry(QRect(0, 20, 331, 341));
-        formLayout_9 = new QFormLayout(formLayoutWidget_5);
-        formLayout_9->setObjectName(QStringLiteral("formLayout_9"));
-        formLayout_9->setVerticalSpacing(16);
-        formLayout_9->setContentsMargins(0, 0, 0, 0);
-        Label_7 = new QLabel(formLayoutWidget_5);
-        Label_7->setObjectName(QStringLiteral("Label_7"));
-
-        formLayout_9->setWidget(0, QFormLayout::LabelRole, Label_7);
-
-        ComboBox_6 = new QComboBox(formLayoutWidget_5);
-        ComboBox_6->setObjectName(QStringLiteral("ComboBox_6"));
-
-        formLayout_9->setWidget(0, QFormLayout::FieldRole, ComboBox_6);
-
-        Label_8 = new QLabel(formLayoutWidget_5);
-        Label_8->setObjectName(QStringLiteral("Label_8"));
-
-        formLayout_9->setWidget(1, QFormLayout::LabelRole, Label_8);
-
-        ComboBox_7 = new QComboBox(formLayoutWidget_5);
-        ComboBox_7->setObjectName(QStringLiteral("ComboBox_7"));
-
-        formLayout_9->setWidget(1, QFormLayout::FieldRole, ComboBox_7);
-
-        Label_9 = new QLabel(formLayoutWidget_5);
-        Label_9->setObjectName(QStringLiteral("Label_9"));
-
-        formLayout_9->setWidget(2, QFormLayout::LabelRole, Label_9);
-
-        ComboBox_8 = new QComboBox(formLayoutWidget_5);
-        ComboBox_8->setObjectName(QStringLiteral("ComboBox_8"));
-
-        formLayout_9->setWidget(2, QFormLayout::FieldRole, ComboBox_8);
-
-        Label_10 = new QLabel(formLayoutWidget_5);
-        Label_10->setObjectName(QStringLiteral("Label_10"));
-
-        formLayout_9->setWidget(3, QFormLayout::LabelRole, Label_10);
-
-        ComboBox_9 = new QComboBox(formLayoutWidget_5);
-        ComboBox_9->setObjectName(QStringLiteral("ComboBox_9"));
-
-        formLayout_9->setWidget(3, QFormLayout::FieldRole, ComboBox_9);
-
-        Label_11 = new QLabel(formLayoutWidget_5);
-        Label_11->setObjectName(QStringLiteral("Label_11"));
-
-        formLayout_9->setWidget(4, QFormLayout::LabelRole, Label_11);
-
-        ComboBox_10 = new QComboBox(formLayoutWidget_5);
-        ComboBox_10->setObjectName(QStringLiteral("ComboBox_10"));
-
-        formLayout_9->setWidget(4, QFormLayout::FieldRole, ComboBox_10);
-
-        Label_12 = new QLabel(formLayoutWidget_5);
-        Label_12->setObjectName(QStringLiteral("Label_12"));
-
-        formLayout_9->setWidget(5, QFormLayout::LabelRole, Label_12);
-
-        ComboBox_11 = new QComboBox(formLayoutWidget_5);
-        ComboBox_11->setObjectName(QStringLiteral("ComboBox_11"));
-
-        formLayout_9->setWidget(5, QFormLayout::FieldRole, ComboBox_11);
-
-        Label_13 = new QLabel(formLayoutWidget_5);
-        Label_13->setObjectName(QStringLiteral("Label_13"));
-
-        formLayout_9->setWidget(6, QFormLayout::LabelRole, Label_13);
-
-        ComboBox_12 = new QComboBox(formLayoutWidget_5);
-        ComboBox_12->setObjectName(QStringLiteral("ComboBox_12"));
-
-        formLayout_9->setWidget(6, QFormLayout::FieldRole, ComboBox_12);
-
-        Label_14 = new QLabel(formLayoutWidget_5);
-        Label_14->setObjectName(QStringLiteral("Label_14"));
-
-        formLayout_9->setWidget(7, QFormLayout::LabelRole, Label_14);
-
-        ComboBox_13 = new QComboBox(formLayoutWidget_5);
-        ComboBox_13->setObjectName(QStringLiteral("ComboBox_13"));
-
-        formLayout_9->setWidget(7, QFormLayout::FieldRole, ComboBox_13);
-
-        Label_15 = new QLabel(formLayoutWidget_5);
-        Label_15->setObjectName(QStringLiteral("Label_15"));
-
-        formLayout_9->setWidget(8, QFormLayout::LabelRole, Label_15);
-
-        ComboBox_14 = new QComboBox(formLayoutWidget_5);
-        ComboBox_14->setObjectName(QStringLiteral("ComboBox_14"));
-
-        formLayout_9->setWidget(8, QFormLayout::FieldRole, ComboBox_14);
-
-
-        verticalLayout_5->addWidget(groupBox_12);
-
 
         retranslateUi(Dialog);
 
@@ -1013,13 +1013,6 @@ public:
         ComboBox_4->setItemText(2, QApplication::translate("Dialog", "3", nullptr));
         ComboBox_4->setItemText(3, QApplication::translate("Dialog", "4", nullptr));
 
-        pushButton_2->setText(QApplication::translate("Dialog", "\345\270\270\350\247\204\350\256\276\347\275\256", nullptr));
-        pushButton_5->setText(QApplication::translate("Dialog", "\346\224\266\351\223\266\350\256\276\347\275\256", nullptr));
-        pushButton_4->setText(QApplication::translate("Dialog", "\345\244\226\350\256\276\351\205\215\347\275\256", nullptr));
-        pushButton_6->setText(QApplication::translate("Dialog", "\345\277\253\346\215\267\351\224\256\350\256\276\347\275\256", nullptr));
-        pushButton_3->setText(QApplication::translate("Dialog", "\344\273\243\347\220\206\347\275\221\347\273\234\350\256\276\347\275\256", nullptr));
-        pushButton->setText(QApplication::translate("Dialog", "\351\253\230\347\272\247\350\256\276\347\275\256", nullptr));
-        closeWindow->setText(QString());
         groupBox_12->setTitle(QApplication::translate("Dialog", "\345\277\253\346\215\267\351\224\256\350\256\276\347\275\256", nullptr));
         Label_7->setText(QApplication::translate("Dialog", "\346\230\276\347\244\272\345\277\253\346\215\267\351\224\256\350\257\264\346\230\216\357\274\232", nullptr));
         Label_8->setText(QApplication::translate("Dialog", "\346\211\223\345\274\200\345\205\263\351\227\255\346\224\266\351\223\266\345\217\260\357\274\232", nullptr));
@@ -1030,6 +1023,13 @@ public:
         Label_13->setText(QApplication::translate("Dialog", "\344\272\244\346\230\223\346\237\245\350\257\242\357\274\232", nullptr));
         Label_14->setText(QApplication::translate("Dialog", "\344\272\244\346\216\245\347\217\255(\346\263\250\351\224\200)\357\274\232", nullptr));
         Label_15->setText(QApplication::translate("Dialog", "\345\205\263\351\227\255\345\260\217\347\262\276\347\201\265\357\274\232", nullptr));
+        pushButton_2->setText(QApplication::translate("Dialog", "\345\270\270\350\247\204\350\256\276\347\275\256", nullptr));
+        pushButton_5->setText(QApplication::translate("Dialog", "\346\224\266\351\223\266\350\256\276\347\275\256", nullptr));
+        pushButton_4->setText(QApplication::translate("Dialog", "\345\244\226\350\256\276\351\205\215\347\275\256", nullptr));
+        pushButton_6->setText(QApplication::translate("Dialog", "\345\277\253\346\215\267\351\224\256\350\256\276\347\275\256", nullptr));
+        pushButton_3->setText(QApplication::translate("Dialog", "\344\273\243\347\220\206\347\275\221\347\273\234\350\256\276\347\275\256", nullptr));
+        pushButton->setText(QApplication::translate("Dialog", "\351\253\230\347\272\247\350\256\276\347\275\256", nullptr));
+        closeWindow->setText(QString());
     } // retranslateUi
 
 };
